@@ -22,7 +22,7 @@ The steps in this document assume that you have access to an OpenShift deploymen
 ### Installation
 These steps assume your OpenShift deployment has the default set of ImageStreams defined. Instructions for installing the default ImageStreams are available [here](https://docs.okd.io/latest/install_config/imagestreams_templates.html#creating-image-streams-for-openshift-images).  If you are defining the set of ImageStreams now, remember to pass in the proper cluster-admin credentials and to create the ImageStreams in the 'openshift' namespace.
 
-1. Fork a copy of [ruby-ex](https://github.com/Ana138/ruby-openshift-lab/)
+1. Fork a copy of [ruby-openshift-lab](https://github.com/Ana138/ruby-openshift-lab/)
 2. Add a Ruby application from your new repository:
 
 		$ oc new-app openshift/ruby:25~https://github.com/< yourusername >/ruby-openshift-lab
