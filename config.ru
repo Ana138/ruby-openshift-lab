@@ -32,14 +32,14 @@ map '/' do
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Testando um app ruby no openshift! </title>
+  <title>Meu app no openshift</title>
 
 </head>
 <body>
 
 <section class='container'>
           <hgroup>
-            <h1>Bem-vindo ao teste: app ruby no openshift para nossa sprint!</h1>
+            <h1>Sucess</h1>
           </hgroup>
 </section>
 </body>
